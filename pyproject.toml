@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["evaluation"]
+
+[project]
+name = "opir"
+version = "0.1.0"
+description = "Paper and evaluation harness for Opir guardrail models."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "Ihor Stepanov", email = "ingvarstep@knowledgator.com"},
+    {name = "Aleksandr Smechov", email = "aleks@wordcab.com"},
+]
+dependencies = [
+    "datasets>=2.19.0",
+    "numpy>=1.24.0",
+    "scikit-learn>=1.3.0",
+    "torch>=2.0.0",
+    "transformers>=4.40.0",
+]
+
+[project.optional-dependencies]
+eval = [
+    "gliclass",
+    "gliner2",
+]
+vllm = ["vllm"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]

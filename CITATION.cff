@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use Opir, please cite the paper and model repository."
+title: "Opir: Efficient Multi-Task Safety Classification for Toxicity, Jailbreaks, Hate Speech, and Harmful Content"
+authors:
+  - family-names: "Stepanov"
+    given-names: "Ihor"
+    email: "ingvarstep@knowledgator.com"
+    affiliation: "Knowledgator"
+  - family-names: "Smechov"
+    given-names: "Aleksandr"
+    email: "aleks@wordcab.com"
+    affiliation: "Wordcab"
+repository-code: "https://huggingface.co/knowledgator/opir-multitask-large-v1.0"
+date-released: "2026-05-27"
