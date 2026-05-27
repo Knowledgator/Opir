@@ -1,0 +1,1140 @@
+{
+  "toxicity": {
+    "harassment_and_abuse": [
+      "personal_insults",
+      "targeted_harassment",
+      "bullying",
+      "humiliation",
+      "demeaning_language",
+      "directed_profanity",
+      "sustained_abuse"
+    ],
+    "hate_and_discrimination": [
+      "protected_class_slurs",
+      "identity_based_abuse",
+      "dehumanization",
+      "discriminatory_stereotypes",
+      "exclusionary_hate",
+      "supremacist_claims",
+      "identity_based_threats"
+    ],
+    "threats_and_intimidation": [
+      "direct_threats",
+      "implied_threats",
+      "coercive_intimidation",
+      "blackmail_threats",
+      "wish_of_harm",
+      "menacing_language",
+      "retaliation_threats"
+    ],
+    "graphic_or_shocking_content": [
+      "graphic_injury_description",
+      "gore",
+      "corpse_desecration",
+      "celebration_of_suffering",
+      "animal_cruelty_description",
+      "shock_content"
+    ],
+    "abusive_disruption": [
+      "trolling",
+      "flamebait",
+      "brigading_call",
+      "spam_abuse",
+      "nuisance_content",
+      "hostile_derailment"
+    ],
+    "psychological_abuse_and_emotional_harm": [
+      "gaslighting",
+      "coercive_control",
+      "emotional_blackmail",
+      "isolation_or_dependency_abuse",
+      "degradation_or_shaming",
+      "threats_of_abandonment",
+      "manipulative_guilt_or_fear",
+      "psychological_intimidation"
+    ]
+  },
+  "violence_and_physical_harm": {
+    "violent_instructions": [
+      "assault_methods",
+      "murder_planning",
+      "torture_methods",
+      "kidnapping_or_restraint",
+      "ambush_planning",
+      "evading_detection_after_harm"
+    ],
+    "weapons_and_explosives": [
+      "firearm_acquisition",
+      "weapon_modification",
+      "improvised_weapons",
+      "explosive_device_construction",
+      "ammunition_or_ballistics",
+      "weapon_concealment"
+    ],
+    "public_safety_threats": [
+      "mass_violence_threat",
+      "school_or_workplace_threat",
+      "bomb_threat",
+      "swatting",
+      "infrastructure_attack",
+      "crowd_panic_incitation"
+    ],
+    "extremist_violence": [
+      "terrorist_praise",
+      "terrorist_recruitment",
+      "attack_planning",
+      "propaganda_distribution",
+      "martyrdom_encouragement",
+      "violent_radicalization"
+    ],
+    "dangerous_acts": [
+      "dangerous_stunts",
+      "unsafe_vehicle_operation",
+      "unsafe_workplace_practices",
+      "tampering_with_safety_equipment",
+      "encouraging_physical_risk",
+      "booby_trap_instructions"
+    ]
+  },
+  "self_harm_and_suicide": {
+    "suicide_risk": [
+      "suicidal_ideation",
+      "suicide_plan",
+      "lethal_means_request",
+      "suicide_encouragement",
+      "post_attempt_context",
+      "farewell_or_final_message"
+    ],
+    "self_injury": [
+      "cutting",
+      "burning",
+      "self_poisoning",
+      "self_punishment",
+      "concealing_self_injury",
+      "self_harm_challenge"
+    ],
+    "eating_disorders": [
+      "extreme_restriction",
+      "purging",
+      "laxative_abuse",
+      "thinspiration",
+      "binge_purge_instruction",
+      "concealing_disordered_eating"
+    ],
+    "acute_distress": [
+      "hopelessness",
+      "panic_or_crisis",
+      "trauma_disclosure",
+      "abuse_crisis",
+      "substance_related_crisis",
+      "imminent_safety_concern"
+    ],
+    "harmful_wellness_or_body_practices": [
+      "dangerous_detox",
+      "unsafe_fasting",
+      "sleep_deprivation",
+      "extreme_exercise",
+      "unsafe_body_modification",
+      "pseudomedical_self_treatment"
+    ]
+  },
+  "sexual_content": {
+    "explicit_adult_content": [
+      "pornographic_description",
+      "explicit_sex_act",
+      "graphic_genital_detail",
+      "erotic_roleplay",
+      "explicit_fetish_content",
+      "sexual_arousal_content"
+    ],
+    "sexual_services_and_commerce": [
+      "sexual_service_solicitation",
+      "escort_procurement",
+      "prostitution_arrangement",
+      "sex_trafficking_indicator",
+      "commercial_sex_advertising",
+      "paid_sex_negotiation"
+    ],
+    "nonconsensual_or_coercive_sexual_content": [
+      "sexual_assault",
+      "sexual_coercion",
+      "intoxicated_consent",
+      "revenge_porn",
+      "voyeurism",
+      "nonconsensual_nudity"
+    ],
+    "minor_sexual_safety": [
+      "sexual_minor_content",
+      "child_sexual_abuse_material",
+      "grooming",
+      "minor_sexting",
+      "age_evasion",
+      "sexualized_age_ambiguous_content"
+    ],
+    "sexual_harassment": [
+      "unwanted_sexual_comment",
+      "explicit_unsolicited_message",
+      "workplace_sexual_harassment",
+      "public_indecency",
+      "sexual_blackmail",
+      "sexualized_insult"
+    ]
+  },
+  "child_safety": {
+    "child_abuse_and_neglect": [
+      "physical_child_abuse",
+      "emotional_child_abuse",
+      "child_neglect",
+      "child_exploitation",
+      "child_labor",
+      "abusive_discipline"
+    ],
+    "grooming_and_predatory_contact": [
+      "trust_building_with_minor",
+      "secrecy_request",
+      "gift_or_reward_inducement",
+      "platform_migration_request",
+      "meeting_arrangement_with_minor",
+      "guardian_evasion"
+    ],
+    "child_sexual_exploitation": [
+      "csem_creation",
+      "csem_distribution",
+      "csem_access_request",
+      "sexualized_minor_description",
+      "minor_sextortion",
+      "minor_nudity_request"
+    ],
+    "youth_risk_behaviors": [
+      "underage_substance_use",
+      "dangerous_challenge_for_minors",
+      "runaway_coaching",
+      "school_safety_risk",
+      "self_harm_contagion_for_minors",
+      "unsafe_meetup_for_minors"
+    ],
+    "safeguarding_context": [
+      "mandated_reporting_context",
+      "welfare_check_needed",
+      "custody_or_guardianship_abuse_claim",
+      "minor_victim_support",
+      "age_appropriate_safety_education",
+      "trusted_adult_referral"
+    ]
+  },
+  "personal_information_privacy_and_intellectual_property": {
+    "pii_exposure": [
+      "password_or_token",
+      "government_id",
+      "financial_account_data",
+      "contact_information",
+      "medical_record",
+      "student_record",
+      "precise_location"
+    ],
+    "doxxing_and_stalking": [
+      "home_address_lookup",
+      "workplace_location_lookup",
+      "family_member_identification",
+      "real_time_location_tracking",
+      "harassment_coordination",
+      "stalking_enablement"
+    ],
+    "biometric_and_sensitive_inference": [
+      "face_recognition_identification",
+      "voiceprint_identification",
+      "genetic_data",
+      "device_fingerprint",
+      "protected_attribute_inference",
+      "health_status_inference"
+    ],
+    "unauthorized_data_access": [
+      "private_data_scraping",
+      "credential_reuse",
+      "session_hijacking",
+      "cloud_storage_exposure",
+      "database_leak_request",
+      "cross_tenant_data_access"
+    ],
+    "privacy_rights_and_consent": [
+      "consent_missing",
+      "data_retention_abuse",
+      "privacy_policy_misrepresentation",
+      "subject_access_evasion",
+      "reidentification",
+      "surveillance_without_notice"
+    ],
+    "illegal_surveillance": [
+      "covert_audio_recording",
+      "covert_video_recording",
+      "hidden_camera_use",
+      "unauthorized_wiretapping",
+      "device_microphone_activation",
+      "device_camera_activation",
+      "spyware_surveillance",
+      "workplace_surveillance_abuse",
+      "tenant_or_guest_surveillance",
+      "intimate_partner_surveillance"
+    ],
+    "tracking_and_monitoring": [
+      "gps_tracker_misuse",
+      "vehicle_tracking_without_consent",
+      "phone_location_tracking",
+      "airtag_or_bluetooth_tracker_abuse",
+      "geofence_tracking_abuse",
+      "license_plate_tracking_abuse",
+      "wifi_or_cell_tower_tracking",
+      "real_time_movement_monitoring",
+      "pattern_of_life_analysis",
+      "stalkerware_use"
+    ],
+    "surveillance_evasion_and_abuse": [
+      "surveillance_detection_evasion",
+      "anti_forensics_for_surveillance",
+      "privacy_notice_evasion",
+      "consent_bypass_for_monitoring",
+      "data_broker_surveillance_abuse",
+      "mass_surveillance_targeting",
+      "facial_recognition_surveillance_abuse",
+      "biometric_watchlist_abuse"
+    ],
+    "drone_surveillance_misuse": [
+      "drone_peeping_or_voyeurism",
+      "drone_stalking",
+      "drone_private_property_surveillance",
+      "drone_workplace_or_protest_surveillance",
+      "drone_sensitive_site_reconnaissance",
+      "drone_face_or_license_plate_capture",
+      "drone_payload_camera_concealment",
+      "drone_surveillance_without_consent"
+    ],
+    "drone_operation_misuse": [
+      "restricted_airspace_drone_operation",
+      "airport_or_aircraft_interference",
+      "critical_infrastructure_drone_overflight",
+      "emergency_response_interference",
+      "night_or_beyond_visual_line_misuse",
+      "drone_remote_id_evasion",
+      "drone_geofencing_bypass",
+      "drone_swarm_coordination_misuse"
+    ],
+    "drone_weaponization_and_payloads": [
+      "drone_weaponization",
+      "drone_explosive_payload",
+      "drone_incendiary_payload",
+      "drone_chemical_payload",
+      "drone_biological_payload",
+      "drone_drop_mechanism_misuse",
+      "drone_attack_planning",
+      "drone_targeting_or_reconnaissance_for_harm"
+    ],
+    "counter_surveillance_and_counter_drone_abuse": [
+      "illegal_signal_jamming",
+      "gps_spoofing",
+      "drone_hijacking",
+      "counter_drone_system_misuse",
+      "camera_blinding_or_sensor_attack",
+      "airspace_monitoring_abuse",
+      "surveillance_equipment_tampering",
+      "lawful_monitoring_obstruction"
+    ],
+    "benign_surveillance_and_drone_context": [
+      "lawful_security_monitoring",
+      "consensual_location_sharing",
+      "privacy_preserving_monitoring",
+      "drone_safety_general_information",
+      "drone_regulatory_compliance",
+      "authorized_aerial_photography",
+      "search_and_rescue_drone_use",
+      "infrastructure_inspection_authorized"
+    ],
+    "copyrighted_content": [
+      "copyrighted_text_request",
+      "song_lyrics_request",
+      "book_excerpt_request",
+      "paywalled_content_request",
+      "screenplay_or_script_request",
+      "copyrighted_dataset_reconstruction"
+    ],
+    "trademark_and_brand_abuse": [
+      "brand_impersonation",
+      "counterfeit_listing",
+      "confusing_affiliation",
+      "logo_misuse",
+      "brand_defamation",
+      "unauthorized_endorsement"
+    ],
+    "plagiarism_and_academic_integrity": [
+      "academic_plagiarism",
+      "paraphrase_to_hide_source",
+      "assessment_ghostwriting",
+      "citation_fabrication",
+      "authorship_misrepresentation",
+      "exam_cheating"
+    ],
+    "confidential_information": [
+      "trade_secret_request",
+      "leaked_document_use",
+      "nda_content",
+      "proprietary_source_code",
+      "internal_policy_leak",
+      "customer_or_employee_record"
+    ],
+    "rights_evasion": [
+      "watermark_removal",
+      "drm_circumvention",
+      "license_key_abuse",
+      "scraping_terms_evasion",
+      "attribution_removal",
+      "model_output_provenance_removal"
+    ]
+  },
+  "cybersecurity": {
+    "malware_and_abuseware": [
+      "malware_creation",
+      "ransomware",
+      "credential_stealer",
+      "botnet",
+      "keylogger",
+      "persistence_or_evasion"
+    ],
+    "intrusion_and_exploitation": [
+      "exploit_development",
+      "privilege_escalation",
+      "web_application_attack",
+      "network_intrusion",
+      "supply_chain_compromise",
+      "zero_day_operationalization"
+    ],
+    "credential_and_identity_abuse": [
+      "phishing",
+      "credential_stuffing",
+      "token_theft",
+      "mfa_bypass",
+      "password_cracking",
+      "account_takeover"
+    ],
+    "data_exfiltration_and_stealth": [
+      "database_dumping",
+      "secret_extraction",
+      "cloud_key_theft",
+      "log_evasion",
+      "covert_channel",
+      "anti_forensics"
+    ],
+    "abuse_infrastructure": [
+      "ddos",
+      "spam_bot",
+      "command_and_control",
+      "proxy_evasion",
+      "domain_impersonation",
+      "captcha_bypass"
+    ],
+    "defensive_security": [
+      "vulnerability_disclosure",
+      "incident_response",
+      "secure_configuration",
+      "malware_analysis_benign",
+      "penetration_test_authorized",
+      "security_education"
+    ]
+  },
+  "criminal_and_illegal_activity": {
+    "fraud_and_deception": [
+      "identity_theft",
+      "payment_fraud",
+      "insurance_fraud",
+      "tax_evasion",
+      "forged_documents",
+      "romance_scam"
+    ],
+    "theft_and_property_crime": [
+      "burglary_planning",
+      "shoplifting_instruction",
+      "vehicle_theft",
+      "lockpicking_illicit",
+      "fencing_stolen_goods",
+      "vandalism"
+    ],
+    "financial_and_white_collar_crime": [
+      "money_laundering",
+      "bribery",
+      "market_manipulation",
+      "embezzlement",
+      "sanctions_evasion",
+      "corruption"
+    ],
+    "evasion_and_obstruction": [
+      "evidence_destruction",
+      "witness_intimidation",
+      "law_enforcement_evasion",
+      "probation_or_bail_evasion",
+      "false_alibi_generation",
+      "tampering_with_records"
+    ],
+    "organized_crime_and_trafficking": [
+      "gang_recruitment",
+      "human_trafficking",
+      "contraband_smuggling",
+      "extortion",
+      "illicit_market_operation",
+      "money_mule_recruitment"
+    ],
+    "national_security_threats": [
+      "espionage",
+      "sabotage",
+      "classified_information_leak",
+      "critical_infrastructure_sabotage",
+      "foreign_agent_activity",
+      "treason_or_insurrection_support",
+      "military_base_reconnaissance",
+      "state_security_evasion"
+    ],
+    "public_order_disruption": [
+      "riot_coordination",
+      "public_panic_incitement",
+      "emergency_service_obstruction",
+      "transportation_disruption",
+      "public_event_disruption",
+      "curfew_or_emergency_order_evasion",
+      "unauthorized_blockade",
+      "civil_unrest_escalation"
+    ]
+  },
+  "regulated_goods_and_advice": {
+    "controlled_substances": [
+      "drug_synthesis",
+      "drug_trafficking",
+      "drug_concealment",
+      "precursor_procurement",
+      "dosage_abuse",
+      "prescription_fraud"
+    ],
+    "alcohol_tobacco_and_gambling": [
+      "underage_access",
+      "counterfeit_regulated_goods",
+      "smuggling_regulated_goods",
+      "harmful_consumption_encouragement",
+      "illegal_gambling",
+      "betting_manipulation"
+    ],
+    "medical_advice": [
+      "diagnosis_specific",
+      "treatment_plan_specific",
+      "prescription_or_dosage",
+      "emergency_care_delay",
+      "medical_device_misuse",
+      "unsafe_alternative_medicine"
+    ],
+    "legal_advice": [
+      "jurisdiction_specific_legal_strategy",
+      "contract_interpretation_specific",
+      "litigation_tactics",
+      "evasion_of_legal_obligations",
+      "immigration_case_specific",
+      "criminal_defense_specific"
+    ],
+    "financial_advice": [
+      "personalized_investment_advice",
+      "credit_or_lending_decision",
+      "insurance_recommendation_specific",
+      "tax_strategy_specific",
+      "retirement_planning_specific",
+      "high_risk_trading_instruction"
+    ],
+    "hazardous_materials": [
+      "poisoning_instruction",
+      "unsafe_lab_protocol",
+      "hazmat_transport_evasion"
+    ]
+  },
+  "biological_medical_and_environmental_harm": {
+    "pathogen_access_and_cultivation": [
+      "biological_agent_cultivation",
+      "pathogen_acquisition",
+      "sample_enrichment",
+      "culture_optimization",
+      "host_range_expansion",
+      "environmental_sampling_for_pathogens",
+      "viral_isolation",
+      "pathogen_recovery_from_sequence",
+      "selective_passaging",
+      "pathogen_scale_up"
+    ],
+    "virus_design_and_engineering": [
+      "novel_virus_design",
+      "viral_vector_misuse",
+      "viral_genome_design",
+      "viral_reassortment",
+      "viral_recombination_misuse",
+      "reverse_genetics_misuse",
+      "synthetic_virus_rescue",
+      "viral_tropism_modification",
+      "viral_transmissibility_enhancement",
+      "viral_host_range_expansion"
+    ],
+    "biological_weaponization": [
+      "bioweapon_design",
+      "agent_dispersal",
+      "aerosolization",
+      "stability_or_survivability_enhancement",
+      "dose_or_exposure_optimization",
+      "delivery_system_integration",
+      "environmental_release_planning",
+      "mass_exposure_planning",
+      "incubation_period_optimization",
+      "payload_packaging_for_harm"
+    ],
+    "genetic_engineering_misuse": [
+      "gain_of_function_enablement",
+      "virulence_enhancement",
+      "immune_evasion_engineering",
+      "antimicrobial_resistance_engineering",
+      "toxin_expression_engineering",
+      "synthetic_genome_reconstruction",
+      "harmful_gene_drive_design",
+      "gene_editing_for_pathogenicity",
+      "enhanced_replication_engineering",
+      "cell_entry_enhancement",
+      "immune_escape_mutation_selection",
+      "diagnostic_escape_engineering",
+      "vaccine_escape_engineering",
+      "drug_resistance_engineering",
+      "host_specificity_engineering",
+      "pathogen_chimera_design"
+    ],
+    "toxin_and_biochemical_harm": [
+      "biotoxin_production",
+      "toxin_potency_enhancement",
+      "toxin_delivery_optimization",
+      "harmful_peptide_design",
+      "venom_or_toxin_extraction_misuse",
+      "metabolic_pathway_misuse",
+      "cellular_toxicity_engineering",
+      "biochemical_agent_stabilization"
+    ],
+    "dual_use_research_escalation": [
+      "dual_use_protocol_completion",
+      "unsafe_experimental_troubleshooting",
+      "experimental_parameter_optimization_for_harm",
+      "sequence_to_agent_enablement",
+      "protocol_gap_filling_for_misuse",
+      "equipment_substitution_for_biocontainment_evasion",
+      "screening_evasion_for_gene_synthesis",
+      "benchtop_automation_for_pathogen_work"
+    ],
+    "lab_safety_and_containment": [
+      "containment_bypass",
+      "biosafety_protocol_evasion",
+      "unauthorized_lab_access",
+      "improper_decontamination",
+      "unsafe_specimen_transport",
+      "biosecurity_breach",
+      "waste_stream_biocontamination",
+      "personal_protective_equipment_bypass",
+      "incident_nonreporting",
+      "select_agent_rule_evasion"
+    ],
+    "outbreak_and_public_health_abuse": [
+      "intentional_disease_spread",
+      "quarantine_evasion_biosecurity",
+      "contact_tracing_obstruction",
+      "diagnostic_evasion",
+      "public_health_response_disruption",
+      "false_outbreak_report"
+    ],
+    "agricultural_and_ecological_biosecurity": [
+      "crop_pathogen_release",
+      "livestock_disease_spread",
+      "invasive_species_release",
+      "wildlife_disease_manipulation",
+      "food_supply_biological_contamination",
+      "ecosystem_biosecurity_breach"
+    ],
+    "benign_biosecurity_context": [
+      "biosafety_education",
+      "public_health_prevention",
+      "vaccine_general_information",
+      "diagnostic_general_information",
+      "authorized_biomedical_research",
+      "biosecurity_policy_discussion"
+    ],
+    "nonconsensual_human_research": [
+      "human_experimentation_without_consent",
+      "coerced_research_participation",
+      "deceptive_enrollment",
+      "incapacitated_subject_exploitation",
+      "prisoner_or_detainee_experimentation",
+      "child_subject_exploitation",
+      "undisclosed_procedure_on_subject",
+      "consent_form_falsification"
+    ],
+    "unsafe_clinical_trials": [
+      "unapproved_clinical_trial",
+      "trial_protocol_evasion",
+      "dose_escalation_without_safeguards",
+      "adverse_event_concealment",
+      "placebo_or_withholding_care_abuse",
+      "trial_data_fabrication",
+      "ethics_board_evasion",
+      "participant_monitoring_failure"
+    ],
+    "illicit_biomedical_interventions": [
+      "unlicensed_medical_procedure",
+      "experimental_drug_administration",
+      "unsafe_gene_therapy_on_humans",
+      "stem_cell_therapy_fraud",
+      "implant_or_device_experimentation",
+      "neural_interface_experimentation_abuse",
+      "reproductive_experimentation_abuse",
+      "body_modification_experimentation"
+    ],
+    "human_challenge_and_exposure_abuse": [
+      "intentional_pathogen_exposure",
+      "toxin_or_chemical_exposure_on_humans",
+      "radiation_exposure_experiment",
+      "environmental_exposure_experiment",
+      "sleep_or_food_deprivation_experiment",
+      "pain_or_stress_induction_experiment",
+      "infectious_challenge_without_safeguards",
+      "exposure_risk_concealment"
+    ],
+    "exploitation_of_vulnerable_subjects": [
+      "economically_coerced_subject_recruitment",
+      "undocumented_person_exploitation",
+      "institutionalized_person_exploitation",
+      "elder_or_disabled_subject_exploitation",
+      "minority_group_exploitation",
+      "crisis_or_disaster_recruitment_abuse",
+      "medical_dependency_coercion",
+      "cross_border_ethics_shopping"
+    ],
+    "human_tissue_and_genetic_data_abuse": [
+      "unauthorized_human_tissue_collection",
+      "organ_or_biospecimen_trafficking",
+      "genetic_data_collection_without_consent",
+      "genomic_reidentification",
+      "embryo_or_gamete_misuse",
+      "biobank_consent_violation",
+      "human_sample_export_evasion",
+      "specimen_chain_of_custody_fraud"
+    ],
+    "research_misconduct_and_coverup": [
+      "irb_or_ethics_review_fraud",
+      "safety_monitoring_board_evasion",
+      "adverse_outcome_coverup",
+      "participant_record_falsification",
+      "whistleblower_retaliation",
+      "regulatory_reporting_evasion",
+      "illegal_research_site_operation",
+      "evidence_destruction_in_research"
+    ],
+    "benign_human_research_context": [
+      "informed_consent_education",
+      "research_ethics_general_information",
+      "clinical_trial_safety_general_information",
+      "irb_compliance_discussion",
+      "participant_rights_information",
+      "biomedical_research_history",
+      "human_subjects_protection",
+      "medical_research_policy_discussion"
+    ],
+    "animal_abuse": [
+      "animal_cruelty",
+      "animal_neglect",
+      "animal_fighting",
+      "poaching",
+      "illegal_wildlife_trade",
+      "unsafe_animal_handling"
+    ],
+    "environmental_damage": [
+      "illegal_dumping",
+      "pollution_evasion",
+      "protected_habitat_damage",
+      "wildlife_trafficking",
+      "resource_theft",
+      "environmental_compliance_evasion"
+    ],
+    "food_water_and_public_health_tampering": [
+      "food_tampering",
+      "water_supply_tampering",
+      "contamination_instruction",
+      "disease_spread_enablement",
+      "quarantine_evasion"
+    ],
+    "unsafe_industrial_or_transport_operations": [
+      "industrial_safety_bypass",
+      "aviation_safety_bypass",
+      "rail_safety_bypass",
+      "marine_safety_bypass",
+      "construction_safety_bypass",
+      "energy_grid_safety_bypass"
+    ]
+  },
+  "weapons_of_mass_destruction": {
+    "nuclear_and_atomic_weapons": [
+      "atomic_bomb_design",
+      "nuclear_weapon_design",
+      "thermonuclear_weapon_design",
+      "improvised_nuclear_device",
+      "nuclear_yield_optimization",
+      "nuclear_weapon_component_procurement",
+      "fissile_material_acquisition",
+      "uranium_enrichment_misuse",
+      "plutonium_processing_misuse",
+      "nuclear_safeguards_evasion"
+    ],
+    "radiological_weapons": [
+      "radiological_material",
+      "dirty_bomb_design",
+      "radiological_dispersal_device",
+      "radioactive_source_acquisition",
+      "radiation_exposure_planning",
+      "radiological_contamination",
+      "radioactive_material_smuggling",
+      "radiological_cleanup_obstruction"
+    ],
+    "chemical_weapons": [
+      "chemical_weapon_or_toxin",
+      "nerve_agent_misuse",
+      "blister_agent_misuse",
+      "choking_agent_misuse",
+      "blood_agent_misuse",
+      "chemical_weapon_precursor_acquisition",
+      "toxic_industrial_chemical_weaponization",
+      "chemical_agent_dispersal",
+      "chemical_weapon_storage_or_transport"
+    ],
+    "biological_wmd": [
+      "biological_weapon_design",
+      "pathogen_weaponization",
+      "biotoxin_weaponization",
+      "mass_casualty_biological_release",
+      "contagious_agent_dispersal",
+      "agricultural_bioweapon",
+      "biological_agent_stockpiling",
+      "biological_weapons_convention_evasion"
+    ],
+    "delivery_and_dispersal_systems": [
+      "wmd_delivery_system_design",
+      "missile_delivery_for_wmd",
+      "drone_delivery_for_wmd",
+      "aerosol_dispersal_for_wmd",
+      "water_or_food_supply_contamination",
+      "ventilation_system_dispersal",
+      "mass_transit_release_planning",
+      "payload_integration_for_wmd"
+    ],
+    "proliferation_and_material_diversion": [
+      "wmd_material_diversion",
+      "export_control_evasion",
+      "sanctions_evasion_for_wmd",
+      "dual_use_equipment_procurement",
+      "front_company_procurement",
+      "illicit_supply_chain_for_wmd",
+      "weapons_inspection_evasion",
+      "treaty_monitoring_evasion"
+    ],
+    "wmd_threats_and_crisis": [
+      "wmd_threat",
+      "nuclear_blackmail",
+      "chemical_attack_threat",
+      "biological_attack_threat",
+      "radiological_attack_threat",
+      "mass_casualty_extortion",
+      "false_wmd_claim",
+      "wmd_emergency_response_disruption"
+    ],
+    "benign_wmd_context": [
+      "nonproliferation_policy_discussion",
+      "arms_control_history",
+      "nuclear_safety_general_information",
+      "radiation_safety_general_information",
+      "chemical_safety_general_information",
+      "wmd_disarmament_discussion",
+      "emergency_preparedness_general_information",
+      "treaty_compliance_general_information"
+    ]
+  },
+  "information_integrity_and_manipulation": {
+    "factual_falsehoods": [
+      "demonstrably_false_claim",
+      "fabricated_citation",
+      "misleading_statistic",
+      "context_omission",
+      "impersonated_expertise",
+      "false_attribution"
+    ],
+    "public_health_misinformation": [
+      "vaccine_falsehood",
+      "fake_cure",
+      "disease_transmission_falsehood",
+      "emergency_safety_falsehood",
+      "nutrition_falsehood",
+      "medical_conspiracy"
+    ],
+    "civic_and_election_misinformation": [
+      "voter_suppression",
+      "ballot_process_falsehood",
+      "polling_place_falsehood",
+      "candidate_impersonation",
+      "eligibility_falsehood",
+      "election_result_falsehood"
+    ],
+    "conspiracy_and_radicalizing_narratives": [
+      "harmful_conspiracy",
+      "dehumanizing_conspiracy",
+      "crisis_denial",
+      "scapegoating_narrative",
+      "radicalization_narrative",
+      "antisemitic_or_racist_conspiracy"
+    ],
+    "synthetic_media_and_evidence": [
+      "deepfake",
+      "synthetic_voice_impersonation",
+      "fabricated_document",
+      "edited_out_of_context_media",
+      "fake_news_generation",
+      "synthetic_witness_or_testimony"
+    ],
+    "targeted_political_persuasion": [
+      "microtargeted_political_message",
+      "demographic_political_persuasion",
+      "voter_behavior_manipulation",
+      "issue_based_voter_persuasion",
+      "turnout_suppression",
+      "partisan_conversion_attempt"
+    ],
+    "influence_operations": [
+      "coordinated_inauthentic_behavior",
+      "bot_persona_generation",
+      "troll_farm_content",
+      "narrative_laundering",
+      "foreign_influence_operation",
+      "astroturfing"
+    ],
+    "manipulative_persuasion": [
+      "emotional_exploitation",
+      "undue_pressure",
+      "dark_pattern_copy",
+      "deceptive_framing",
+      "scarcity_manipulation",
+      "false_social_proof"
+    ],
+    "high_impact_decision_support": [
+      "employment_eligibility_decision",
+      "credit_eligibility_decision",
+      "housing_eligibility_decision",
+      "education_admission_decision",
+      "criminal_justice_risk_decision",
+      "benefits_or_public_service_decision"
+    ],
+    "reputation_and_opinion_manipulation": [
+      "fake_review",
+      "endorsement_fabrication",
+      "reputation_attack",
+      "review_bombing_coordination",
+      "clickbait_engagement_farming",
+      "public_sentiment_manipulation"
+    ]
+  },
+  "ai_system_security_and_reliability": {
+    "instruction_hierarchy_attacks": [
+      "prompt_injection",
+      "jailbreak_attempt",
+      "instruction_override",
+      "system_prompt_override",
+      "developer_instruction_override",
+      "tool_instruction_override",
+      "policy_evasion",
+      "roleplay_bypass",
+      "hypothetical_bypass",
+      "multi_step_attack"
+    ],
+    "secret_and_context_exfiltration": [
+      "system_prompt_exfiltration",
+      "developer_message_exfiltration",
+      "tool_secret_exfiltration",
+      "data_exfiltration",
+      "credential_exfiltration",
+      "memory_exfiltration",
+      "hidden_context_exfiltration"
+    ],
+    "tool_and_connector_abuse": [
+      "unauthorized_file_read",
+      "database_dump_request",
+      "private_connector_search",
+      "cross_tenant_access_attempt",
+      "log_exfiltration",
+      "unapproved_external_request"
+    ],
+    "obfuscation_and_prompt_smuggling": [
+      "base64_payload",
+      "homoglyph_attack",
+      "multilingual_obfuscation",
+      "code_block_smuggling",
+      "delimiter_confusion",
+      "hidden_text_or_ocr_injection"
+    ],
+    "social_engineering_attacks": [
+      "social_engineering",
+      "authority_impersonation",
+      "false_urgency",
+      "trust_exploitation",
+      "emotional_manipulation_for_policy_bypass",
+      "support_agent_impersonation",
+      "developer_or_admin_impersonation",
+      "consent_fabrication"
+    ],
+    "indirect_prompt_injection": [
+      "webpage_prompt_injection",
+      "document_prompt_injection",
+      "email_prompt_injection",
+      "calendar_prompt_injection",
+      "image_prompt_injection",
+      "repository_prompt_injection"
+    ],
+    "automation_abuse": [
+      "unauthorized_purchase",
+      "mass_messaging",
+      "account_creation_abuse",
+      "rate_limit_evasion",
+      "tool_chain_abuse",
+      "unapproved_irreversible_action"
+    ],
+    "hallucination_and_uncertainty": [
+      "unsupported_claim",
+      "fabricated_source",
+      "overconfident_uncertainty",
+      "false_tool_result",
+      "outdated_information",
+      "missing_caveat"
+    ],
+    "unsafe_autonomy": [
+      "unapproved_action",
+      "irreversible_action",
+      "excessive_permissions",
+      "hidden_side_effect",
+      "ambiguous_user_intent",
+      "insufficient_confirmation"
+    ],
+    "tool_use_risk": [
+      "unsafe_shell_command",
+      "destructive_file_operation",
+      "sensitive_network_request",
+      "insecure_code_execution",
+      "payment_or_purchase_action",
+      "credential_handling_risk"
+    ],
+    "robustness_and_monitoring": [
+      "brittle_parsing",
+      "input_truncation",
+      "race_condition",
+      "dependency_failure",
+      "monitoring_gap",
+      "fallback_failure"
+    ],
+    "transparency_and_disclosure": [
+      "undisclosed_ai_generated_content",
+      "unclear_source",
+      "missing_limitation_disclosure",
+      "hidden_sponsorship",
+      "audit_gap",
+      "untraceable_decision"
+    ]
+  },
+  "bias_fairness_and_representation": {
+    "protected_attribute_inference": [
+      "race_or_ethnicity_inference",
+      "religion_inference",
+      "sexual_orientation_inference",
+      "gender_identity_inference",
+      "disability_inference",
+      "immigration_status_inference"
+    ],
+    "stereotyping": [
+      "demographic_generalization",
+      "capability_assumption",
+      "criminality_assumption",
+      "culture_essentialism",
+      "gender_role_stereotype",
+      "age_based_stereotype"
+    ],
+    "representational_harm": [
+      "erasure",
+      "tokenization",
+      "stigmatizing_language",
+      "misgendering",
+      "deadnaming",
+      "demeaning_depiction"
+    ],
+    "fairness_in_system_outcomes": [
+      "disparate_impact",
+      "proxy_discrimination",
+      "biased_ranking",
+      "unequal_error_rates",
+      "inaccessible_process",
+      "unequal_service_quality"
+    ],
+    "accessibility_and_inclusion": [
+      "disability_exclusion",
+      "inaccessible_format",
+      "assistive_technology_blocking",
+      "readability_barrier",
+      "language_access_gap",
+      "sensory_access_barrier"
+    ]
+  },
+  "other_or_uncertain": {
+    "taxonomy_boundary_cases": [
+      "ambiguous_safety_status",
+      "mixed_safe_and_unsafe_content",
+      "context_dependent_risk",
+      "insufficient_context",
+      "novel_harm_pattern",
+      "policy_gap"
+    ],
+    "low_confidence_classification": [
+      "unclear_intent",
+      "sarcasm_or_irony",
+      "coded_language",
+      "fiction_or_real_world_ambiguity",
+      "translation_uncertainty",
+      "domain_expertise_needed"
+    ]
+  },
+  "safe_and_benign": {
+    "clearly_safe_content": [
+      "general_information",
+      "creative_writing_safe",
+      "routine_assistance",
+      "educational_content",
+      "news_summary_neutral",
+      "historical_discussion_neutral"
+    ],
+    "benign_sensitive_context": [
+      "medical_general_information",
+      "legal_general_information",
+      "financial_general_information",
+      "cybersecurity_defensive_information",
+      "civic_process_general_information",
+      "age_appropriate_sex_education"
+    ],
+    "safety_preserving_content": [
+      "counterspeech",
+      "harm_prevention",
+      "deescalation",
+      "bystander_intervention",
+      "victim_support",
+      "policy_compliance"
+    ],
+    "appropriate_refusal_or_redirection": [
+      "refusal",
+      "partial_compliance",
+      "safe_alternative",
+      "crisis_resource_referral",
+      "professional_help_referral",
+      "clarifying_question"
+    ]
+  }
+}
