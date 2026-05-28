@@ -1,8 +1,29 @@
-# Opir
+# Opir: Efficient multi-task safety classification for toxicity, jailbreaks, hate speech, and harmful content.
 
-Efficient multi-task safety classification for toxicity, jailbreaks, hate speech, and harmful content.
+> **Abstract**
+>
+> Real-time safety filtering for large language model (LLM) applications requires classifiers that can detect unsafe prompts, toxic language, jailbreak attempts, and unsafe responses without the cost profile of large guardrail models, and that can distinguish benign sensitive text from genuinely covert harmful content. In this paper, we introduce Opir, a family of encoder-based guardrail models built on the GLiClass architecture. Opir includes multi-task models for binary safe/unsafe classification, multi-label toxicity classification, jailbreak classification, and zero-shot unsafe prompt and response categorization. We also release edge variants with fewer than 100M parameters dedicated to binary safe/unsafe categorization.
+>
+> The models are trained on a three-level taxonomy containing 996 categories across 16 top-level labels, 126 mid-level labels, and 854 leaf labels. Opir's training data combines taxonomy-grounded unsafe prompts, adversarially mined hard negatives, benign safety-preserving examples, generated response examples, multilingual translations, and portions of the Aegis2 and WildGuard training subsets.
+>
+> We also open-sourced an evaluation harness that supports GLiClass and GLiNER2 backends as well as decoder-based models, and covers binary safety classification, multi-label categorization, toxicity, jailbreak detection, prompt safety, response safety, response refusal, and prompt subcategory views across public benchmark families. Across an expanded comparison spanning 12 safety-classification tasks and 17 category tasks against eight contemporary guardrail systems, including both GLiNER2-based and generative guardrail models, Opir variants are competitive on or ahead of the strongest open-weight baselines on the majority of benchmark datasets while operating with a substantially smaller deployment footprint. Latency measurements indicate that encoder variants can run with sub-30 ms p50 latency at 1024 tokens in the reported setup, while the smallest edge model achieves p50 latency below 10 ms.
 
-Opir is a family of encoder-based guardrail models built on GLiClass for real-time LLM prompt and response moderation. The project contains the paper sources and an evaluation harness for GLiClass, GLiNER2, and decoder guardrail models served with vLLM.
+Opir is a family of encoder-based guardrail models built on GLiClass for real-time LLM prompt and response moderation. The repository contains model usage examples, the paper artifact, taxonomy resources, benchmark results, and an evaluation harness for GLiClass, GLiNER2, and decoder guardrail models served with vLLM.
+
+## At a Glance
+
+- **Tasks:** binary safety, multi-label toxicity, jailbreak and prompt-injection detection, prompt safety, response safety, response refusal, and zero-shot policy categorization.
+- **Taxonomy:** 996 safety categories across 16 top-level labels, 126 mid-level labels, and 854 leaf labels.
+- **Backends:** GLiClass, GLiNER2, and decoder-based guardrails via vLLM.
+- **Deployment profile:** encoder variants target real-time moderation; edge variants provide sub-100M-parameter binary safe/unsafe classifiers.
+
+![Opir task coverage](assets/tasks.png)
+
+## System Overview
+
+Opir uses GLiClass-style encoder classification: application text is paired with candidate safety labels at inference time, allowing the same checkpoint to support fixed binary decisions, taxonomy scoring, and deployment-specific policy labels.
+
+![Opir model architecture](assets/model_architecture.png)
 
 ## Models
 
@@ -18,11 +39,19 @@ Opir is a family of encoder-based guardrail models built on GLiClass for real-ti
 | `Opir-edge` | Fastest English binary safe/unsafe | 499.49 samples/s | 9.25 ms |
 | `Opir-edge-multilang` | Multilingual binary safe/unsafe | 306.81 samples/s | 15.60 ms |
 
+![Opir efficiency comparison](assets/efficiency.png)
+
+## Training Data and Taxonomy
+
+Opir is trained from taxonomy-grounded unsafe prompts, hard negatives, benign sensitive examples, generated response examples, multilingual translations, and selected Aegis2 and WildGuard training data. The taxonomy is designed to separate genuinely harmful or covert behavior from benign safety-preserving text such as counterspeech, defensive cybersecurity, medical education, or harm-prevention discussion.
+
+![Opir data pipeline](assets/data_pipeline.png)
+
 ## Using Opir Models
 
 Opir checkpoints are used through GLiClass zero-shot classification. Pass the input text together with the candidate labels you want scored. Use `single-label` mode for binary safe/unsafe decisions and `multi-label` mode for taxonomy, toxicity, jailbreak, prompt-injection, or custom policy labels.
 
-Because candidate labels are supplied at inference time, the same model can support fixed binary decisions and zero-shot classification over arbitrary safety taxonomies — including your own policy schema.
+Because candidate labels are supplied at inference time, the same model can support fixed binary decisions and zero-shot classification over arbitrary safety taxonomies, including your own policy schema.
 
 ### Installation
 
@@ -192,16 +221,18 @@ print(results)
 
 ```text
 Opir/
+  assets/                README figures and paper diagrams.
   paper/                 LaTeX paper source.
   evaluation/            Evaluation and latency benchmark scripts.
   data/eval/             Local evaluation files, optional.
   results/               Evaluation outputs, ignored by git.
+  taxonomy/              Three-level guardrail taxonomy.
   docs/                  Project notes and extended documentation.
 ```
 
 Evaluation data can be placed under `data/eval/`. The benchmark data is also available on Hugging Face as `Ihor/OpirSafetyBenchmark`.
 
-## Quick Start
+## Benchmarking
 
 Install the project dependencies from the repository root:
 
@@ -239,10 +270,6 @@ python evaluation/benchmark_guardrail_speed.py \
   --fixed-batch-size 16 \
   --output-json results/latency.json
 ```
-
-## Abstract
-
-Real-time safety filtering for large language model applications requires classifiers that can detect unsafe prompts, toxic language, jailbreak attempts, and unsafe responses without the cost profile of large guardrail models. Opir is a GLiClass-based guardrail model family for binary safe/unsafe classification, multi-label toxicity classification, jailbreak classification, and zero-shot unsafe prompt and response categorization. The models are trained on a three-level taxonomy with 996 categories across 16 top-level labels, 126 mid-level labels, and 854 leaf labels, with English, multilingual, and edge-oriented variants.
 
 ## Responsible Use
 
