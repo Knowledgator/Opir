@@ -274,3 +274,20 @@ python evaluation/benchmark_guardrail_speed.py \
 ## Responsible Use
 
 Opir is intended for LLM prompt and response moderation, safety routing, review prioritization, and offline safety analysis. It should not be used as the sole basis for legal, employment, credit, housing, education, law-enforcement, or other high-impact decisions.
+
+
+## Citation
+
+If you found our work, useful please feel free to cite our paper:
+
+```bibtex
+@misc{stepanov2026opirefficientmultitasksafety,
+      title={Opir: Efficient Multi-Task Safety Classification for Toxicity, Jailbreaks, Hate Speech, and Harmful Content}, 
+      author={Ihor Stepanov and Aleksandr Smechov},
+      year={2026},
+      eprint={2605.29659},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2605.29659}, 
+}
+```
